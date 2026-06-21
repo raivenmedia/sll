@@ -18,7 +18,7 @@ export function SettingsForm() {
       <Input value={settings.socials.instagram} onChange={(event) => setSettings({ ...settings, socials: { ...settings.socials, instagram: event.target.value } })} />
       <Input value={settings.socials.linkedin} onChange={(event) => setSettings({ ...settings, socials: { ...settings.socials, linkedin: event.target.value } })} />
       <Input value={settings.socials.whatsapp} onChange={(event) => setSettings({ ...settings, socials: { ...settings.socials, whatsapp: event.target.value } })} />
-      <div className="lg:col-span-2 flex justify-end">
+      <div className="flex justify-end lg:col-span-2">
         <Button type="button" variant="secondary">Save settings</Button>
       </div>
     </div>

@@ -86,7 +86,7 @@ A production-ready Next.js 15 platform for Yolic combining a corporate website, 
 4. Apply the Supabase schema:
 
    - Open Supabase SQL Editor
-   - Run `/home/runner/work/sll/sll/supabase/schema.sql`
+   - Run `supabase/schema.sql`
    - Create at least one auth user for dashboard access
 
 5. Start development:
