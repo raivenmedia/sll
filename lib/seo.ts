@@ -15,6 +15,7 @@ export function buildMetadata({ title, description, path = "/", keywords = [], i
   return {
     title,
     description,
+    metadataBase: new URL(env.appUrl),
     keywords,
     alternates: { canonical: url },
     openGraph: {
